@@ -19,7 +19,7 @@
           Hi, My name is <span class="purple">Aakash Parate</span>
           <div>and I am a passionate</div>
           <div>web developer</div>
-          <span id="element"></span>
+          
         </div>
         <div class="rightSection">
           <img src="../assets/bg.png" alt="background image">
@@ -27,8 +27,10 @@
       </section>
 <hr>
       <section class="secondSection">
-        <span class="grey">What I have done so far</span>
+        <span class="text-gray">What I have done so far</span>
         <h1>Work Experience</h1>
+
+        <div class="box"></div>
       </section>
     </main>
   </template>
@@ -112,10 +114,22 @@
   .secondSection{
     max-width: 80vw;
     margin: auto;
+    height: 80vh;
+  }
+
+  .text-gray{
+    color: gray;
   }
 
   .secondSection h1 {
     font-size: 1.9rem;
+  }
+
+  .secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 1px;
+    margin: 35px 0;
   }
   </style>
 
