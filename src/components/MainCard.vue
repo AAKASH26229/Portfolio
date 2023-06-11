@@ -5,7 +5,7 @@
       <div class="right">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="../views/AboutView.vue">About</a></li>
+          <li><a href="/">About</a></li>
           <li><a href="/">Projects</a></li>
           <li><a href="/">Contact Me</a></li>
         </ul>
@@ -283,7 +283,7 @@
             <br>
             Email: parateakash21.ap@gmail.com
             <br>
-            LinkedIn: <a  href="https://www.linkedin.com/in/aakash-parate-07/">LinkedIn</a>
+            LinkedIn: <a  href="https://www.linkedin.com/in/aakash-parate-07/">www.linkedin.com/in/aakash-parate-07</a>
           </p>
         </div>
       </div>
