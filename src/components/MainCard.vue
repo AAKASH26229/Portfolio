@@ -180,28 +180,28 @@
       <div class="box">
         <div class="vertical">
           <div class="vertical-title">
-            Post Graduate Diploma 
+            Post Graduate Diploma
             <div>
               in Advanced Computing
-            </div> 
+            </div>
           </div>
           <div class="vertical-desc">
             <br>
-              September 2022 - March 2023
-              <br>
-              Center for Development of Advanced Computing, Noida
-          </div> 
+            September 2022 - March 2023
+            <br>
+            Center for Development of Advanced Computing, Noida
+          </div>
         </div>
         <div class="vertical">
           <div class="vertical-title">
-            B.Tech in Electronics & Telecommunication Engineering 
+            B.Tech in Electronics & Telecommunication Engineering
           </div>
           <div class="vertical-desc">
             <br>
             August 2016 - June 2020
             <br>
             Shri Shankaracharya Group of Institution, Bhilai
-          </div> 
+          </div>
         </div>
         <div class="vertical">
           <div class="vertical-title">
@@ -213,7 +213,7 @@
             <br>
             BSP Senior Secondary School
             <div>CBSE</div>
-          </div> 
+          </div>
         </div>
         <div class="vertical">
           <div class="vertical-title">
@@ -225,27 +225,46 @@
             <br>
             BSP Senior Secondary School
             <div>CBSE</div>
-          </div> 
+          </div>
         </div>
       </div>
     </section>
-<hr>
+    <hr>
 
-<section class="fifthSection">
-  <h1>Contact Me</h1>
-  <div class="main">
-    <div class="contact-form">
-      <form action="">
-        <div class="mb-3">
-          <lable for="clientemail" class="form-lable">Email address</lable>
-          <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-          <div id="emailHelp" class="from-text">We'll never share your email with anyone</div>
+    <section class="fifthSection">
+
+      <div class="main">
+        <div class="contact-form">
+          <h1>Contact me for work</h1>
+          <form action="">
+            <div class="mb-3">
+              <label for="clientemail" class="form-lable">Email address</label>
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+              <div id="emailHelp" class="from-text">We'll never share your email with anyone</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="examplecheck1">
+              <label for="exampleCheck1" class="form-check-label">I want you to work on a project with me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+<br>
+          <h2>Contact Information</h2>
+          <p>
+            Phone: +91 8827876281
+            <br>
+            Email: parateakash21.ap@gmail.com
+            <br>
+            LinkedIn: <a  href="https://www.linkedin.com/in/aakash-parate-07/">LinkedIn</a>
+          </p>
         </div>
-      </form>
-    </div>
-  </div>
+      </div>
 
-</section>
+    </section>
 
 
 
@@ -466,6 +485,23 @@
    color: gray;
    width: 270px;
    font-size: 12px;
+ }
+
+
+ .contact-form {
+   font-family: 'Poppins', sans-serif;
+   padding: 0 55px;
+   padding-top: 34px;
+
+ }
+
+ .contact-form h1 {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+ }
+
+ .contact-form div{
+  padding: 15px 0;
  }
 </style>
 
