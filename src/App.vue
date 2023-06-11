@@ -1,7 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import MainCard from './components/MainCard.vue';
-import HelloWorld from './components/HelloWorld.vue';
+import AboutView from './views/AboutView.vue';
+// import HelloWorld from './components/HelloWorld.vue';
 
 </script>
 
@@ -12,15 +13,18 @@ import HelloWorld from './components/HelloWorld.vue';
     <div  id="app">
       <!-- <HelloWorld/> -->
       <MainCard/>
+     
       
       
-
-      <!-- <nav>
+      
+      
+<!-- 
+      <nav>
        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink> 
+        <RouterLink to="../src/components/About.vue">About</RouterLink> 
       </nav>
     </div> 
-  </header>-->
+  </header> -->
 </div> 
   <RouterView />
 </template>
