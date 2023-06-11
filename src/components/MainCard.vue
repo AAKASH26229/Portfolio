@@ -14,6 +14,7 @@
   </header>
 
   <main>
+    
     <section class="firstSection">
       <div class="leftSection">
         Hi, My name is <span class="purple">Aakash Parate</span>
@@ -28,6 +29,29 @@
       <div class="rightSection">
         <img src="../assets/bg.png" alt="background image">
       </div>
+    </section>
+    <hr>
+    <section class="about">
+      <h1>About</h1>
+      <div>
+        <h4>Hello, I'm Aakash Parate, a motivated individual with a background in Electronics & Telecommunication Engineering and a passion for advanced computing.</h4>    
+      </div>
+        <div>
+          <h4>
+            I have recently completed a Post Graduate Diploma in Advanced Computing from the Center for Development of Advanced Computing. 
+        </h4>
+      </div>
+        <div>
+          <h4>
+            With a strong technical foundation and a curiosity to explore emerging technologies, I am driven to contribute to innovative projects and solve complex problems.
+          </h4>
+        </div> 
+        <div>
+          <h4>
+            I believe in continuous learning and growth, and I am excited to leverage my skills to make a positive impact in the field of technology.
+          </h4>
+        </div>
+
     </section>
     <hr>
     <section class="thirdSection">
@@ -238,6 +262,10 @@
           <h1>Contact me for work</h1>
           <form action="">
             <div class="mb-3">
+              <label for="clientemail" class="form-lable">Name</label>
+              <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
               <label for="clientemail" class="form-lable">Email address</label>
               <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
               <div id="emailHelp" class="from-text">We'll never share your email with anyone</div>
@@ -245,11 +273,13 @@
             <div class="mb-3">
               <label for="exampleInputPassword" class="form-label">Phone</label>
               <input type="phone" class="form-control" id="exampleInputPassword1">
+              <div id="emailHelp" class="from-text">We'll never share your phone number with anyone</div>
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="examplecheck1">
-              <label for="exampleCheck1" class="form-check-label">I want you to work on a project with me</label>
+            <div class="mb-3">
+              <label for="clientemail" class="form-lable">Enquiry</label>
+              <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
             </div>
+           
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
 <br>
@@ -500,8 +530,28 @@
    text-align: center;
  }
 
- .contact-form div{
-  padding: 15px 0;
+ .contact-form form div{
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .contact-form form div{
+  width: 50vw;
+  border-radius: 5px;
+  margin: 6px ;
+  padding: 3px;
+
+ }
+
+ #emailHelp{
+  font-size: 12px;
+  color: white;
+  margin: 0 5px;
+ }
+ 
+ .about{
+  text-align: center;
  }
 </style>
 
