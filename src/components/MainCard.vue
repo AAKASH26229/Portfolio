@@ -34,22 +34,16 @@
     <section class="about">
       <h1>About</h1>
       <div>
-        <h4>Hello, I'm Aakash Parate, a motivated individual with a background in Electronics & Telecommunication Engineering and a passion for advanced computing.</h4>    
+        Hello, I'm Aakash Parate, a motivated individual with a background in Electronics & Telecommunication Engineering and a passion for web development.   
       </div>
         <div>
-          <h4>
             I have recently completed a Post Graduate Diploma in Advanced Computing from the Center for Development of Advanced Computing. 
-        </h4>
       </div>
         <div>
-          <h4>
             With a strong technical foundation and a curiosity to explore emerging technologies, I am driven to contribute to innovative projects and solve complex problems.
-          </h4>
-        </div> 
+         </div> 
         <div>
-          <h4>
             I believe in continuous learning and growth, and I am excited to leverage my skills to make a positive impact in the field of technology.
-          </h4>
         </div>
 
     </section>
@@ -299,6 +293,7 @@
 
 
   </main>
+
 </template>
 
 
@@ -553,6 +548,10 @@
  .about{
   text-align: center;
  }
+ .about div {
+  color: #9C97f1;
+ }
+
 </style>
 
 
